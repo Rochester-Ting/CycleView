@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD270591E2FAE33009D6C8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270581E2FAE33009D6C8C /* AppDelegate.swift */; };
+		CAD2705B1E2FAE33009D6C8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2705A1E2FAE33009D6C8C /* ViewController.swift */; };
+		CAD2705E1E2FAE33009D6C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD2705C1E2FAE33009D6C8C /* Main.storyboard */; };
+		CAD270601E2FAE33009D6C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD2705F1E2FAE33009D6C8C /* Assets.xcassets */; };
+		CAD270631E2FAE33009D6C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD270611E2FAE33009D6C8C /* LaunchScreen.storyboard */; };
+		CAD2706E1E2FAE33009D6C8C /* CirCleViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2706D1E2FAE33009D6C8C /* CirCleViewTests.swift */; };
+		CAD270791E2FAE33009D6C8C /* CirCleViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270781E2FAE33009D6C8C /* CirCleViewUITests.swift */; };
+		CAD2708B1E2FAE49009D6C8C /* CycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270871E2FAE49009D6C8C /* CycleCell.swift */; };
+		CAD2708C1E2FAE49009D6C8C /* CycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD270881E2FAE49009D6C8C /* CycleCell.xib */; };
+		CAD2708D1E2FAE49009D6C8C /* CycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270891E2FAE49009D6C8C /* CycleView.swift */; };
+		CAD2708E1E2FAE49009D6C8C /* CycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAD2708A1E2FAE49009D6C8C /* CycleView.xib */; };
+		CAD270D41E2FAFC2009D6C8C /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270BF1E2FAFC2009D6C8C /* AnimatedImageView.swift */; };
+		CAD270D51E2FAFC2009D6C8C /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270C01E2FAFC2009D6C8C /* Box.swift */; };
+		CAD270D61E2FAFC2009D6C8C /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270C11E2FAFC2009D6C8C /* CacheSerializer.swift */; };
+		CAD270D71E2FAFC2009D6C8C /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270C21E2FAFC2009D6C8C /* Filter.swift */; };
+		CAD270D81E2FAFC2009D6C8C /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270C31E2FAFC2009D6C8C /* Image.swift */; };
+		CAD270D91E2FAFC2009D6C8C /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270C41E2FAFC2009D6C8C /* ImageCache.swift */; };
+		CAD270DA1E2FAFC2009D6C8C /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270C51E2FAFC2009D6C8C /* ImageDownloader.swift */; };
+		CAD270DB1E2FAFC2009D6C8C /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270C61E2FAFC2009D6C8C /* ImagePrefetcher.swift */; };
+		CAD270DC1E2FAFC2009D6C8C /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270C71E2FAFC2009D6C8C /* ImageProcessor.swift */; };
+		CAD270DD1E2FAFC2009D6C8C /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270C81E2FAFC2009D6C8C /* ImageTransition.swift */; };
+		CAD270DE1E2FAFC2009D6C8C /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270C91E2FAFC2009D6C8C /* ImageView+Kingfisher.swift */; };
+		CAD270DF1E2FAFC2009D6C8C /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270CA1E2FAFC2009D6C8C /* Indicator.swift */; };
+		CAD270E01E2FAFC2009D6C8C /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270CC1E2FAFC2009D6C8C /* Kingfisher.swift */; };
+		CAD270E11E2FAFC2009D6C8C /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270CD1E2FAFC2009D6C8C /* KingfisherManager.swift */; };
+		CAD270E21E2FAFC2009D6C8C /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270CE1E2FAFC2009D6C8C /* KingfisherOptionsInfo.swift */; };
+		CAD270E31E2FAFC2009D6C8C /* RequrstModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270CF1E2FAFC2009D6C8C /* RequrstModifier.swift */; };
+		CAD270E41E2FAFC2009D6C8C /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270D01E2FAFC2009D6C8C /* Resource.swift */; };
+		CAD270E51E2FAFC2009D6C8C /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270D11E2FAFC2009D6C8C /* String+MD5.swift */; };
+		CAD270E61E2FAFC2009D6C8C /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270D21E2FAFC2009D6C8C /* ThreadHelper.swift */; };
+		CAD270E71E2FAFC2009D6C8C /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD270D31E2FAFC2009D6C8C /* UIButton+Kingfisher.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD2706A1E2FAE33009D6C8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD2704D1E2FAE33009D6C8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD270541E2FAE33009D6C8C;
+			remoteInfo = CirCleView;
+		};
+		CAD270751E2FAE33009D6C8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD2704D1E2FAE33009D6C8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD270541E2FAE33009D6C8C;
+			remoteInfo = CirCleView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAD270551E2FAE33009D6C8C /* CirCleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CirCleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD270581E2FAE33009D6C8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAD2705A1E2FAE33009D6C8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAD2705D1E2FAE33009D6C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAD2705F1E2FAE33009D6C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD270621E2FAE33009D6C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAD270641E2FAE33009D6C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD270691E2FAE33009D6C8C /* CirCleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirCleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD2706D1E2FAE33009D6C8C /* CirCleViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirCleViewTests.swift; sourceTree = "<group>"; };
+		CAD2706F1E2FAE33009D6C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD270741E2FAE33009D6C8C /* CirCleViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CirCleViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD270781E2FAE33009D6C8C /* CirCleViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirCleViewUITests.swift; sourceTree = "<group>"; };
+		CAD2707A1E2FAE33009D6C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAD270871E2FAE49009D6C8C /* CycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleCell.swift; sourceTree = "<group>"; };
+		CAD270881E2FAE49009D6C8C /* CycleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CycleCell.xib; sourceTree = "<group>"; };
+		CAD270891E2FAE49009D6C8C /* CycleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleView.swift; sourceTree = "<group>"; };
+		CAD2708A1E2FAE49009D6C8C /* CycleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CycleView.xib; sourceTree = "<group>"; };
+		CAD270BF1E2FAFC2009D6C8C /* AnimatedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedImageView.swift; sourceTree = "<group>"; };
+		CAD270C01E2FAFC2009D6C8C /* Box.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		CAD270C11E2FAFC2009D6C8C /* CacheSerializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheSerializer.swift; sourceTree = "<group>"; };
+		CAD270C21E2FAFC2009D6C8C /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		CAD270C31E2FAFC2009D6C8C /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		CAD270C41E2FAFC2009D6C8C /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		CAD270C51E2FAFC2009D6C8C /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		CAD270C61E2FAFC2009D6C8C /* ImagePrefetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePrefetcher.swift; sourceTree = "<group>"; };
+		CAD270C71E2FAFC2009D6C8C /* ImageProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		CAD270C81E2FAFC2009D6C8C /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
+		CAD270C91E2FAFC2009D6C8C /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		CAD270CA1E2FAFC2009D6C8C /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		CAD270CB1E2FAFC2009D6C8C /* Kingfisher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kingfisher.h; sourceTree = "<group>"; };
+		CAD270CC1E2FAFC2009D6C8C /* Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kingfisher.swift; sourceTree = "<group>"; };
+		CAD270CD1E2FAFC2009D6C8C /* KingfisherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherManager.swift; sourceTree = "<group>"; };
+		CAD270CE1E2FAFC2009D6C8C /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		CAD270CF1E2FAFC2009D6C8C /* RequrstModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequrstModifier.swift; sourceTree = "<group>"; };
+		CAD270D01E2FAFC2009D6C8C /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		CAD270D11E2FAFC2009D6C8C /* String+MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
+		CAD270D21E2FAFC2009D6C8C /* ThreadHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadHelper.swift; sourceTree = "<group>"; };
+		CAD270D31E2FAFC2009D6C8C /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD270521E2FAE33009D6C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD270661E2FAE33009D6C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD270711E2FAE33009D6C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD2704C1E2FAE33009D6C8C = {
+			isa = PBXGroup;
+			children = (
+				CAD270571E2FAE33009D6C8C /* CirCleView */,
+				CAD2706C1E2FAE33009D6C8C /* CirCleViewTests */,
+				CAD270771E2FAE33009D6C8C /* CirCleViewUITests */,
+				CAD270561E2FAE33009D6C8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD270561E2FAE33009D6C8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD270551E2FAE33009D6C8C /* CirCleView.app */,
+				CAD270691E2FAE33009D6C8C /* CirCleViewTests.xctest */,
+				CAD270741E2FAE33009D6C8C /* CirCleViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD270571E2FAE33009D6C8C /* CirCleView */ = {
+			isa = PBXGroup;
+			children = (
+				CAD270BE1E2FAFC2009D6C8C /* Kingfisher */,
+				CAD270861E2FAE42009D6C8C /* CirCleView */,
+				CAD270581E2FAE33009D6C8C /* AppDelegate.swift */,
+				CAD2705A1E2FAE33009D6C8C /* ViewController.swift */,
+				CAD2705C1E2FAE33009D6C8C /* Main.storyboard */,
+				CAD2705F1E2FAE33009D6C8C /* Assets.xcassets */,
+				CAD270611E2FAE33009D6C8C /* LaunchScreen.storyboard */,
+				CAD270641E2FAE33009D6C8C /* Info.plist */,
+			);
+			path = CirCleView;
+			sourceTree = "<group>";
+		};
+		CAD2706C1E2FAE33009D6C8C /* CirCleViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD2706D1E2FAE33009D6C8C /* CirCleViewTests.swift */,
+				CAD2706F1E2FAE33009D6C8C /* Info.plist */,
+			);
+			path = CirCleViewTests;
+			sourceTree = "<group>";
+		};
+		CAD270771E2FAE33009D6C8C /* CirCleViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD270781E2FAE33009D6C8C /* CirCleViewUITests.swift */,
+				CAD2707A1E2FAE33009D6C8C /* Info.plist */,
+			);
+			path = CirCleViewUITests;
+			sourceTree = "<group>";
+		};
+		CAD270861E2FAE42009D6C8C /* CirCleView */ = {
+			isa = PBXGroup;
+			children = (
+				CAD270871E2FAE49009D6C8C /* CycleCell.swift */,
+				CAD270881E2FAE49009D6C8C /* CycleCell.xib */,
+				CAD270891E2FAE49009D6C8C /* CycleView.swift */,
+				CAD2708A1E2FAE49009D6C8C /* CycleView.xib */,
+			);
+			path = CirCleView;
+			sourceTree = "<group>";
+		};
+		CAD270BE1E2FAFC2009D6C8C /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				CAD270BF1E2FAFC2009D6C8C /* AnimatedImageView.swift */,
+				CAD270C01E2FAFC2009D6C8C /* Box.swift */,
+				CAD270C11E2FAFC2009D6C8C /* CacheSerializer.swift */,
+				CAD270C21E2FAFC2009D6C8C /* Filter.swift */,
+				CAD270C31E2FAFC2009D6C8C /* Image.swift */,
+				CAD270C41E2FAFC2009D6C8C /* ImageCache.swift */,
+				CAD270C51E2FAFC2009D6C8C /* ImageDownloader.swift */,
+				CAD270C61E2FAFC2009D6C8C /* ImagePrefetcher.swift */,
+				CAD270C71E2FAFC2009D6C8C /* ImageProcessor.swift */,
+				CAD270C81E2FAFC2009D6C8C /* ImageTransition.swift */,
+				CAD270C91E2FAFC2009D6C8C /* ImageView+Kingfisher.swift */,
+				CAD270CA1E2FAFC2009D6C8C /* Indicator.swift */,
+				CAD270CB1E2FAFC2009D6C8C /* Kingfisher.h */,
+				CAD270CC1E2FAFC2009D6C8C /* Kingfisher.swift */,
+				CAD270CD1E2FAFC2009D6C8C /* KingfisherManager.swift */,
+				CAD270CE1E2FAFC2009D6C8C /* KingfisherOptionsInfo.swift */,
+				CAD270CF1E2FAFC2009D6C8C /* RequrstModifier.swift */,
+				CAD270D01E2FAFC2009D6C8C /* Resource.swift */,
+				CAD270D11E2FAFC2009D6C8C /* String+MD5.swift */,
+				CAD270D21E2FAFC2009D6C8C /* ThreadHelper.swift */,
+				CAD270D31E2FAFC2009D6C8C /* UIButton+Kingfisher.swift */,
+			);
+			name = Kingfisher;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD270541E2FAE33009D6C8C /* CirCleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD2707D1E2FAE33009D6C8C /* Build configuration list for PBXNativeTarget "CirCleView" */;
+			buildPhases = (
+				CAD270511E2FAE33009D6C8C /* Sources */,
+				CAD270521E2FAE33009D6C8C /* Frameworks */,
+				CAD270531E2FAE33009D6C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CirCleView;
+			productName = CirCleView;
+			productReference = CAD270551E2FAE33009D6C8C /* CirCleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD270681E2FAE33009D6C8C /* CirCleViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD270801E2FAE33009D6C8C /* Build configuration list for PBXNativeTarget "CirCleViewTests" */;
+			buildPhases = (
+				CAD270651E2FAE33009D6C8C /* Sources */,
+				CAD270661E2FAE33009D6C8C /* Frameworks */,
+				CAD270671E2FAE33009D6C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD2706B1E2FAE33009D6C8C /* PBXTargetDependency */,
+			);
+			name = CirCleViewTests;
+			productName = CirCleViewTests;
+			productReference = CAD270691E2FAE33009D6C8C /* CirCleViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD270731E2FAE33009D6C8C /* CirCleViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD270831E2FAE33009D6C8C /* Build configuration list for PBXNativeTarget "CirCleViewUITests" */;
+			buildPhases = (
+				CAD270701E2FAE33009D6C8C /* Sources */,
+				CAD270711E2FAE33009D6C8C /* Frameworks */,
+				CAD270721E2FAE33009D6C8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD270761E2FAE33009D6C8C /* PBXTargetDependency */,
+			);
+			name = CirCleViewUITests;
+			productName = CirCleViewUITests;
+			productReference = CAD270741E2FAE33009D6C8C /* CirCleViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD2704D1E2FAE33009D6C8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Rochester;
+				TargetAttributes = {
+					CAD270541E2FAE33009D6C8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y6GFNNDJWB;
+						ProvisioningStyle = Automatic;
+					};
+					CAD270681E2FAE33009D6C8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y6GFNNDJWB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAD270541E2FAE33009D6C8C;
+					};
+					CAD270731E2FAE33009D6C8C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y6GFNNDJWB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAD270541E2FAE33009D6C8C;
+					};
+				};
+			};
+			buildConfigurationList = CAD270501E2FAE33009D6C8C /* Build configuration list for PBXProject "CirCleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD2704C1E2FAE33009D6C8C;
+			productRefGroup = CAD270561E2FAE33009D6C8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD270541E2FAE33009D6C8C /* CirCleView */,
+				CAD270681E2FAE33009D6C8C /* CirCleViewTests */,
+				CAD270731E2FAE33009D6C8C /* CirCleViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD270531E2FAE33009D6C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD270631E2FAE33009D6C8C /* LaunchScreen.storyboard in Resources */,
+				CAD270601E2FAE33009D6C8C /* Assets.xcassets in Resources */,
+				CAD2708C1E2FAE49009D6C8C /* CycleCell.xib in Resources */,
+				CAD2708E1E2FAE49009D6C8C /* CycleView.xib in Resources */,
+				CAD2705E1E2FAE33009D6C8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD270671E2FAE33009D6C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD270721E2FAE33009D6C8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD270511E2FAE33009D6C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD270D91E2FAFC2009D6C8C /* ImageCache.swift in Sources */,
+				CAD2705B1E2FAE33009D6C8C /* ViewController.swift in Sources */,
+				CAD270D81E2FAFC2009D6C8C /* Image.swift in Sources */,
+				CAD270D61E2FAFC2009D6C8C /* CacheSerializer.swift in Sources */,
+				CAD270E61E2FAFC2009D6C8C /* ThreadHelper.swift in Sources */,
+				CAD270E01E2FAFC2009D6C8C /* Kingfisher.swift in Sources */,
+				CAD270DC1E2FAFC2009D6C8C /* ImageProcessor.swift in Sources */,
+				CAD270E41E2FAFC2009D6C8C /* Resource.swift in Sources */,
+				CAD2708D1E2FAE49009D6C8C /* CycleView.swift in Sources */,
+				CAD270E11E2FAFC2009D6C8C /* KingfisherManager.swift in Sources */,
+				CAD270D41E2FAFC2009D6C8C /* AnimatedImageView.swift in Sources */,
+				CAD270E31E2FAFC2009D6C8C /* RequrstModifier.swift in Sources */,
+				CAD270DF1E2FAFC2009D6C8C /* Indicator.swift in Sources */,
+				CAD270DA1E2FAFC2009D6C8C /* ImageDownloader.swift in Sources */,
+				CAD270E51E2FAFC2009D6C8C /* String+MD5.swift in Sources */,
+				CAD270DD1E2FAFC2009D6C8C /* ImageTransition.swift in Sources */,
+				CAD270DB1E2FAFC2009D6C8C /* ImagePrefetcher.swift in Sources */,
+				CAD270D51E2FAFC2009D6C8C /* Box.swift in Sources */,
+				CAD270DE1E2FAFC2009D6C8C /* ImageView+Kingfisher.swift in Sources */,
+				CAD270E71E2FAFC2009D6C8C /* UIButton+Kingfisher.swift in Sources */,
+				CAD270D71E2FAFC2009D6C8C /* Filter.swift in Sources */,
+				CAD2708B1E2FAE49009D6C8C /* CycleCell.swift in Sources */,
+				CAD270591E2FAE33009D6C8C /* AppDelegate.swift in Sources */,
+				CAD270E21E2FAFC2009D6C8C /* KingfisherOptionsInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD270651E2FAE33009D6C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD2706E1E2FAE33009D6C8C /* CirCleViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD270701E2FAE33009D6C8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD270791E2FAE33009D6C8C /* CirCleViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD2706B1E2FAE33009D6C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD270541E2FAE33009D6C8C /* CirCleView */;
+			targetProxy = CAD2706A1E2FAE33009D6C8C /* PBXContainerItemProxy */;
+		};
+		CAD270761E2FAE33009D6C8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD270541E2FAE33009D6C8C /* CirCleView */;
+			targetProxy = CAD270751E2FAE33009D6C8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAD2705C1E2FAE33009D6C8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD2705D1E2FAE33009D6C8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAD270611E2FAE33009D6C8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD270621E2FAE33009D6C8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD2707B1E2FAE33009D6C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD2707C1E2FAE33009D6C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD2707E1E2FAE33009D6C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6GFNNDJWB;
+				INFOPLIST_FILE = CirCleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.rui.com.CirCleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CAD2707F1E2FAE33009D6C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y6GFNNDJWB;
+				INFOPLIST_FILE = CirCleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.rui.com.CirCleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CAD270811E2FAE33009D6C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y6GFNNDJWB;
+				INFOPLIST_FILE = CirCleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.rui.com.CirCleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CirCleView.app/CirCleView";
+			};
+			name = Debug;
+		};
+		CAD270821E2FAE33009D6C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y6GFNNDJWB;
+				INFOPLIST_FILE = CirCleViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.rui.com.CirCleViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CirCleView.app/CirCleView";
+			};
+			name = Release;
+		};
+		CAD270841E2FAE33009D6C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y6GFNNDJWB;
+				INFOPLIST_FILE = CirCleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.rui.com.CirCleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CirCleView;
+			};
+			name = Debug;
+		};
+		CAD270851E2FAE33009D6C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y6GFNNDJWB;
+				INFOPLIST_FILE = CirCleViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.rui.com.CirCleViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CirCleView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD270501E2FAE33009D6C8C /* Build configuration list for PBXProject "CirCleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD2707B1E2FAE33009D6C8C /* Debug */,
+				CAD2707C1E2FAE33009D6C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD2707D1E2FAE33009D6C8C /* Build configuration list for PBXNativeTarget "CirCleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD2707E1E2FAE33009D6C8C /* Debug */,
+				CAD2707F1E2FAE33009D6C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD270801E2FAE33009D6C8C /* Build configuration list for PBXNativeTarget "CirCleViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD270811E2FAE33009D6C8C /* Debug */,
+				CAD270821E2FAE33009D6C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAD270831E2FAE33009D6C8C /* Build configuration list for PBXNativeTarget "CirCleViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD270841E2FAE33009D6C8C /* Debug */,
+				CAD270851E2FAE33009D6C8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD2704D1E2FAE33009D6C8C /* Project object */;
+}
